@@ -1,0 +1,16 @@
+$(document).ready(function()
+	{
+		$('#button').click(function()
+		{
+      if(!$('#button').hasClass('openDone'))
+      {
+        $('#button').addClass('openDone');
+        $("#fn").show();	
+      }
+      else
+      {
+        $('#button').removeClass('openDone');
+        $("#fn").hide();
+      }
+		});
+});
