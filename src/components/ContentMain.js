@@ -13,6 +13,7 @@ export default class ContentMain extends Component {
         return (
             <div>
                 <div className="content">
+                    
                     <ContentStr />
 
                     <ContentFourPhotos />

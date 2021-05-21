@@ -24,7 +24,7 @@ export default class ContentThirdTable extends Component {
               </div>
               <div className="flex2">
                  <table className="table-content">
-                   
+                   <tbody>
                      <tr className="tr-content">
                       <th className="th-content">IMAGE</th>
                       <th className="th-content">PRODUCT NAME</th>
@@ -88,6 +88,7 @@ export default class ContentThirdTable extends Component {
                        <td className="td-quantity">2</td>
                        <td className="td-tracking-no">#SD89HK561</td>
                      </tr>
+                    </tbody>
                  </table>
               </div>
             </div>

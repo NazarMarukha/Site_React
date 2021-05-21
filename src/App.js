@@ -10,15 +10,16 @@ function App() {
     <BrowserRouter>
       <div>
         
-        {/* <Route exact path="/">
-          <Redirect to='/main' />
-        </Route> */}
+        <Route exact path="/">
+          <Redirect to='/react-deploy' />
+        </Route>
   
         <AsideTop />
 
         <TopNav />
 
         <Aside />
+
 
         <Route path='/react-deploy' component={ContentMain} />
 
